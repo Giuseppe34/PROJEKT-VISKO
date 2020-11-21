@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="BuisnessLayer.Historie">
+    <Position X="24.25" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAACAAAAAAABAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Historie.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="m_Rezervace" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="BuisnessLayer.Naradi">
+    <Position X="16.75" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Naradi.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BuisnessLayer.Pracovnik">
+    <Position X="17.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Pracovnik.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BuisnessLayer.Rezervace">
+    <Position X="20.5" Y="4.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAABAEAIARAIAgAAAAAAAAAAAAAAEAAAQAAAAAAAEA=</HashCode>
+      <FileName>Rezervace.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="m_Zakaznik" />
+      <Field Name="m_Pracovnik" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Field Name="m_PujceneNaradi" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="BuisnessLayer.Zakaznik">
+    <Position X="21.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Zakaznik.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BuisnessLayer.Zaloha">
+    <Position X="15" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Zaloha.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BuisnessLayer.Zavada">
+    <Position X="15.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Zavada.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BuisnessLayer.Osoba">
+    <Position X="19.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAQAAACAAABAIAAAQABAAAAgAAAAAAAEAAAABAAA=</HashCode>
+      <FileName>Osoba.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
